@@ -295,23 +295,25 @@ a {
   color: var(--gray);
 }
 
-@media screen and (max-width:750px) {
-    .company_content{
-        display: grid;
-        width: auto;
-        height: auto;
-        text-align: center;
-        padding: 2.5rem;
-        gap: 3.3rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .hero_end{
-        font-size: 1.6rem;
-        font-weight: 600;
-    }
-
+@media screen and (max-width: 750px) {
+  .company_content {
+    display: grid;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 2.5rem;
+    gap: 3.3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero_end {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
 }
-.google, .microsoft, .linkedin, .vector {
+.google,
+.microsoft,
+.linkedin,
+.vector {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -600,7 +602,7 @@ a {
 .footer {
   display: flex;
   justify-content: center;
-  /* padding-left: 2rem; */
+  margin-bottom: 3rem;
 }
 
 .footer_section {
@@ -699,20 +701,21 @@ a {
   gap: 1.3rem;
 }
 
-@media screen and (max-width:750px) {
-    .footer_grid{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8rem;
-        padding-left: 2rem;
-    }
+@media screen and (max-width: 750px) {
+  .footer_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    padding-left: 2rem;
+  }
 }
 
-.footer_copyright {
-    width: 100%;
+.footer_copyright{
+  width: 100%;
   color: var(--gray);
   font-size: 0.75rem;
   margin-top: 1rem;
-  padding-top: 1.5rem;
+  padding-top: 1.3rem;
   margin-bottom: 2rem;
-  border-top: 1px solid #E5E7EB;
+  border-top: 1px solid #e5e7eb;
+  padding-bottom: 2rem;
 }
